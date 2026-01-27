@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<JobDescription>
+    <postion>
+        <name>Java Engineer</name>
+        <title>12 Must have skills for Java engineers</title>
+        <requiredSkills>
+            <skillName>Understanding the Java Ecosystem</skillName>
+            <skillDescription>Java ecosystem is a software platform containing the collection of resources and other essentials for the creation of various applications. The Java Ecosystem is mainly composed of three parts namely: The Java Virtual Machine (JVM), The Java Runtime Environment (JRE) and The Java Developer Kit (JDK). Only when we understand the ecosystem, we can make the best use of it to create our application. </skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Object Oriented Programming Concepts</skillName>
+            <skillDescription>As we know, Java is an object-oriented programming language that is, it uses the object as a primary entity and performs various activities. The basic object-oriented programming concepts include the following: Object, Class, Inheritance, Polymorphism, Abstraction, Encapsulation. Having in-depth knowledge of the OOPs concept is essential while working with an object-oriented programming language. Hence learn all of the concepts with suited illustrations and programs.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>MVC Pattern</skillName>
+            <skillDescription>Model - View - Controller Pattern, abbreviated as MVC pattern is a design pattern in the development of applications. The model represents the object, the view provides the picturization of the data that the model contains vis the schemas or flowcharts, and the controller is said to control both i.e, manipulate the model or update the view.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Java GUI Frameworks</skillName>
+            <skillDescription>Frameworks are software tools that help developers to add additional functionalities to the code, making it easy and comfortable to work on. There are several Java frameworks, one among them is the GUI framework. GUI refers to the Graphic User Interface that is in direct contact with the client. Hence it has to be attractive and user-friendly. The best Java GUI frameworks for this purpose are AWT, Swing, JavaFX, Apache Pivot, etc. It is good to know about various frameworks and choose the one that is best suited for your application. Here, we have given a note about two of the frameworks: AWT, Swing or JavaFX</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Java Libraries</skillName>
+            <skillDescription>Java libraries are a collection of pre-written classes. Java class library is loaded dynamically and called whenever required by the Java virtual machine (JVM). Maven, Google-JSON, JUnit, Apache Commons, etc are the most common java libraries used. It is important to add java libraries because the program is not directly linked to the operating system (As Java is platform-independent).</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Java Keywords</skillName>
+            <skillDescription>In any programming language we take, the integral component will be its syntax and keywords. Keywords are reserved words that are predefined and mean a particular function or action to the compiler. They are used everywhere, say, to declare a class, instantiate an object, define a method, use access specifiers, exception handling, etc. Catch, char, class, private, const, etc are a few keywords used in java.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Database Connectivity</skillName>
+            <skillDescription>A database is a hub of information stored in an organized fashion, easy to search and retrieve. Java Database Connectivity or JDBC is a Java API to connect and executes the query with the database, acting as a bridge between the code and the database. The JDBC interface consists of two layers namely, JDBC API and JDBC driver. The former supports communication between the Java application and the JDBC manager and the latter supports communication between the JDBC manager and the database driver. Knowledge about JDBC is essential as it plays a pivotal role in storing the information and using it in the application.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Java Concurrency Patterns</skillName>
+            <skillDescription>Multithreading and multitasking programming paradigms are design patterns that fall under the Java Concurrency Patterns. Thread is a sequential flow of control within a program. Sometimes it is called an execution context or a lightweight process: Multithreading and Multi-tasking. Multithreading is lightweight and easy to create whereas multi-tasking is heavyweight and harder to create. Studying these concurrency patterns makes code execution easy and effective.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Java Server Pages and Servlets</skillName>
+            <skillDescription>JSP is a server-side technology almost similar to PHP and ASP but written in Java programming language. It lets the user embed java code into HTML pages using the JSP tags. A servlet is a small Java program that runs within a Web server. In layman’s terms, a Servlet is a class that handles requests, processes them, and replies with a response. For instance, to collect input from a user through an HTML form, query records from a database, and create web pages dynamically, a servlet is used. It is a little faster than JSP as the translation from JSP to java code takes time. To summarize, both are web development techniques playing an important role on the server side. Hence these are also the essential concept a java developer must know.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Exception handling</skillName>
+            <skillDescription>An exception is an unwanted event that interrupts the normal flow of the program. When an exception occurs, program execution gets terminated. This can be handled by the code of the program. Exceptions can be classified as checked and unchecked. Exception handling in Java is one of the powerful mechanisms to handle run-time errors. So, the normal flow of the application can be maintained. Try, catch, throw, throws, and finally are the five major keywords used in java exception handling. Error, on the other hand, is a critical condition that cannot be handled by the code of the program.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Testing Platforms</skillName>
+            <skillDescription>Testing tools are applications that help developers and testers in performing manual and automated tests. Likewise, there are many testing tools for Java codes. They include JUnit, Mockito, Selenium, FitNesse, etc. Testing is also of different types like unit testing, integration testing, functional testing, acceptance testing, performance testing, etc. JUnit is a Java framework that provides unit testing. Testing the application is as important as its creation. Hence understanding the testing platforms, types, and their uses is another most important Java developer skill.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Java Building Tools</skillName>
+            <skillDescription>A Java developer must have deep knowledge of Java build tools. Build tools provide a wide range of building automation tasks from compilation to testing. The most popular Java build tools include Ant and Maven. Both of them can run in different IDEs like IntelliJ, Eclipse, or NetBeans.</skillDescription>
+        </requiredSkills>
+        <conclution>Mastering these top Python developer skills equips you to get success in the tech world! This guide is your launchpad, but the learning never ends. Join the Python developer community, hone your skills with projects and challenges, and stay updated on the evolving Python landscape. With dedication and these in-demand abilities, you’re well on your way to becoming a sought-after Python developer - land your dream job today!</conclution>  
+    </postion>
+    <postion>
+        <name>Python Engineer</name>
+        <title>10  Must have skills for Python engineers</title>
+        <requiredSkills>
+            <skillName>Excellent Debugging Skills</skillName>
+            <skillDescription>Python is a beginner-friendly language and is said to be easy to start with. But there are a lot of scenarios where you expect to get a different output or result rather than the one you have got. Some of these cases can be when working with range() function (which results in off-by-one error), failing to close a file, division by a negative number (often resulting in an undesired number that rounds towards the negative part of the number line), etc. This makes the skill of debugging important to have. Some ways to debug are by simply printing out variables values, altering the path of the program, stopping execution of certain events, and using a debugger. </skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Knowledge of Frameworks</skillName>
+            <skillDescription>Web frameworks in Python like Flask, Django, Bottle have been popular since their initial days and have grown to a great extent in recent years. More and more web developers are now switching to these frameworks due to the sophisticated nature, ease and pace of build, security, and Scalability these frameworks offer. Other popular python frameworks include web2py, Falcon, Dash, CherryPy, etc.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>List Comprehension and Slicing</skillName>
+            <skillDescription>Slicing and list comprehension is one of the most powerful features that are present in Python. Slicing is applied to strings and lists and is responsible to carve out a part or subset of the list or string. It prevents you to loop through indices with ugly if conditions and makes the code look elegant. On the other hand, list comprehension is a mechanism to create a new list based on an existing list or other structures like strings. This shortens multiple lines of the loop into a single-line and easy-to-understand syntax.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Usage of Common Python Libraries</skillName>
+            <skillDescription>Libraries in Python are what makes this language so powerful. Thousands of developers have made numerous libraries to carry out a lot of procedures that will make the development process for other developers much faster, smoother and secure. These libraries contain useful functions that eliminate the need to write code from scratch. Some of the famous libraries are Tensorflow for machine learning, PyTorch for computer vision and natural language processing, Requests for HTTP requests, and many more.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Usage of Python Shell</skillName>
+            <skillDescription>Python provides a robust shell of its own that lets you execute commands in isolation and entirety. It is also called the REPL (read, evaluate, print, loop) which means it reads the command, evaluates it, prints the result, and loops back. The shell is a text-based command prompt. It lets you test code without explicitly creating a file. As a python developer, you should know how to use this python interpreter as it can save a lot of time while testing out new pieces of code.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Familiar with ORM Libraries</skillName>
+            <skillDescription>Object Relational Mapper is a class of library that assists in converting and transferring data from the relational database into python objects that are suitable to use in the application itself. Some examples of ORM in python are TortoiseORM, Django ORM which comes inbuilt with Django framework, and SQLAlchemy which is mostly used with Flask. These are much more efficient than SQL and help you save a lot of time by offering the freedom to choose any other database while developing.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Core Python Concepts</skillName>
+            <skillDescription>Core python concepts are the concepts that lay a stepping stone for your journey in python. You should have mastered a few concepts like data structures, exceptional handling, object-oriented programming (OOPs), multithreading, packages, functions, upgrading versions, generators, iterators, etc. These help you to be a powerful python programmer with a strong base.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Writing Readable Code With Proper Documentation</skillName>
+            <skillDescription>Since python depends on spaces or tabs (and not primarily depends on braces like other languages), there can be scenarios where there could be bugs in the code therefore it is required to maintain code in a readable format to make debugging easier. Also, sometimes python codes could be complex to understand therefore proper documentation should accompany the code to make it more readable.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Data Related Skills</skillName>
+            <skillDescription>Python is said to be the most used language while dealing with data-related technologies and domains like data mining, data analysis, machine learning, data science, big data, and more. So if you plan to learn python, learning a few of these skills will enhance your resume and would allow you to sit for more diverse roles. As python supports most of the data-related tasks by providing libraries, beginning with these technologies is not as hard and would showcase you as a great python developer.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Usage of Files</skillName>
+            <skillDescription>Coding in python needs a lot of interaction with files. Either you are working with data in data-related domains, or you are storing some results in a file, file I/O or file handling is a crucial part of python related development and therefore one needs to know how to work with files in python. </skillDescription>
+        </requiredSkills>
+        <conclution>A strong understanding of various fundamental abilities will be very necessary for Java development in this year. These generally include understanding object-oriented programming ideas, the MVC design, and the Java environment. Proficiency with Java libraries, keywords, database connectivity, and GUI frameworks is also essential. Understanding Java concurrency patterns, Java Server Pages (JSP) and servlets, as well as exception handling and testing platforms, is also important. Also, a Java developer should be well-versed in Java building tools like Ant and Maven. By gaining these skills, developers can always stay competitive and build their successful careers in field Java development. </conclution>
+    </postion>
+    <postion>
+        <name>Data engineer</name>
+        <title>10  Must have skills for Data engineers</title>
+        <requiredSkills>
+            <skillName>Big Data Technologies</skillName>
+            <skillDescription>Big data technology is one of the most important skills that every data engineer should have, as a large amount of data is generated every minute and companies have to deal with that data and store it as well. Apache Spark and Apache Hadoop are the two best tools that are used to handle that data through distributed processing. Both of these tools help in saving on the expenses that are spent on storing such big datasets, and they also offer features that help in effectively analyzing them.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Data Warehousing</skillName>
+            <skillDescription>Data warehousing is another top skill that every data engineer should possess. As the interest of businesses in data increases, majority of them have started investing in developing data warehouses that collect and store data from multiple sources regularly. Therefore, a data warehouse is something that mainly allows stakeholders to make well-informed business decisions by supporting the process of drawing meaningful conclusions with the help of data analytics. The data-warehousing building process needs a data engineer to perform the data analysis from various sources.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Cloud computing tools</skillName>
+            <skillDescription>The main purpose of data engineers is to handle the raw data of companies and manage that data. This type of company's data is further hosted on cloud servers. It is important to know about the cloud computing tools needed to work with big data. Some of the most popular cloud platforms are OpenShift, Azure, AWS, OpenStack, and GCP. There are multiple companies that work with public, in-house, and hybrid cloud infrastructures based on the requirements of data storage.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Database Management</skillName>
+            <skillDescription>A database management system is defined as the foundation of any infrastructure that helps data engineers develop, maintain, and design the overall data infrastructure that supports the needs of companies. Therefore, data engineers mainly choose database management systems, and some of the popular choices of data engineers are Oracle, Microsoft, SQL Server, MySQL, and so on.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Machine learning</skillName>
+            <skillDescription>Data engineers need to be proficient in machine learning since it improves big data processing by identifying patterns and trends more effectively. Data engineers can classify incoming data, convert unprocessed information into useful insights, and identify significant patterns by utilizing machine learning algorithms. Data engineers require a solid understanding of statistics and machine learning principles in order to successfully incorporate machine learning into their workflows. Additionally, more complex applications tend to benefit more from more recent frameworks like TensorFlow, PyTorch, and Scikit-learn.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Data modeling and schema design</skillName>
+            <skillDescription>Data modeling is defined as the process of developing a conceptual representation of the data that an organization needs to store and analyze, while schema design involves the development of a detailed blueprint of how the data will be organized and structured within the database. The role of a data engineer is to define the relationships between the multiple data entities. Data modeling and schema design mainly involve defining the data types and constraints that will be used to ensure quality and data integrity. It also supports data analysis and reporting by developing logical groupings of data and defining relationships between the data entities.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Real-Time Processing</skillName>
+            <skillDescription>Data engineers should know of data processing frameworks, as these frameworks are mainly responsible for streaming data. Processing large amounts of data is a complex and even more complex task than processing it in real time. Real-time data processing frameworks are mainly used to process data streams and handle the data as it is generated. These frameworks also allow companies to analyze and respond to data in real time, which is very important for applications like monitoring systems, real-time recommendations, and fraud detection.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>Data visualization skills</skillName>
+            <skillDescription>Data visualization is a key skill for data engineers, as it helps turn complex data into clear and understandable visuals for end-users. This skill is essential for presenting insights and findings in a way that is easy to interpret and act on. Commonly used tools for data visualization include Tableau, Plotly, Qlik, Spotfire, Tibco, and others, which allow data engineers to create charts, dashboards, and reports that make data-driven decisions simpler for businesses.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+        <skillName>Data ingestion tools</skillName>
+            <skillDescription>Data ingestion tools are essential for managing big data, especially as the amount of data grows. These tools help bring data from various sources into a system where it can be processed and analyzed. As data grows more complex, data engineers need to use these tools and APIs to organize, validate, and transfer data efficiently. Popular data ingestion tools include Apache Kafka, Apache Flume, Apache Storm, Wavefront, and others. These tools ensure the data flow is smooth and reliable for further use.</skillDescription>
+        </requiredSkills>
+        <requiredSkills>
+            <skillName>AWS Engineering Skills</skillName>
+            <skillDescription>AWS skills are vital in the field of data engineering, as many organizations rely on Amazon Web Services to manage and process their data. To excel as an AWS data engineer, it's essential to understand and effectively use key AWS services like Amazon Redshift for data warehousing, Amazon S3 for scalable storage, Amazon DynamoDB for NoSQL databases, AWS Lambda for serverless computing, and AWS Glue for data integration and ETL tasks. Mastery of these tools enables data engineers to build efficient, scalable, and reliable data pipelines tailored to organizational needs.</skillDescription>
+        </requiredSkills>
+        <conclution>Data Engineers should possess some essential skills that are required to perform tasks in a more effective way and to solve modern data related problems. These skills include expertise in programming languages like Python. In this article, we covered those very essential skills one should have to advance as a data engineer. It is really important to keep up with the changes in technology, and being good at data engineering is crucial because a lot of companies require this. Learning and using these skills helps data engineers deal with the growing amount of data in today's digital world.</conclution>
+    </postion>
+</JobDescription>

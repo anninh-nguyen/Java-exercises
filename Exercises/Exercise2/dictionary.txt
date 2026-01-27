@@ -1,0 +1,4 @@
+Hello,English
+Hej,Swedish
+Konnichiwa,Japanese
+Buenos Dias,Spanish

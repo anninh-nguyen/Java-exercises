@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Task3",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task3",
+            "projectName": "exercise6"
+        },
+        {
+            "type": "java",
+            "name": "Task2",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task2",
+            "projectName": "exercise6"
+        },
+        {
+            "type": "java",
+            "name": "Task1",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task1",
+            "projectName": "exercise6"
+        },
+        {
+            "type": "java",
+            "name": "Task7",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task7",
+            "projectName": "exercise6"
+        },
+        {
+            "type": "java",
+            "name": "Task7",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task7",
+            "projectName": "exercise7"
+        },
+        {
+            "type": "java",
+            "name": "Task3",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task3",
+            "projectName": "exercise7"
+        },
+        {
+            "type": "java",
+            "name": "Task2",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task2",
+            "projectName": "exercise7"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Restaurant",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Restaurant",
+            "projectName": "exercise7"
+        },
+        {
+            "type": "java",
+            "name": "Task1",
+            "request": "launch",
+            "mainClass": "programming.java.javafx/programming.java.javafx.Task1",
+            "projectName": "exercise7"
+        }
+    ]
+}
