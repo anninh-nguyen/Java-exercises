@@ -1,0 +1,12 @@
+Tehtävä 6:
+Liangin kirjan tehtävä 16.11.
+Laadi ohjelma, joka lukee tiedoston ja esittää histogrammin, joka näyttää eri aakkosten
+esiintymien määrän tiedostosta, kuten yllä oleva kuva (b) esittää – lokalisoi tehtävä
+siten, että myös Å-, Ä- ja Ö-kirjaimet lasketaan. Tiedoston nimi syötetään tekstikenttään
+ja Return/Enter-näppäimen painallus tekstikentässä saa ohjelman aloittamaan
+tiedoston lukemisen, käsittelemään tiedoston ja näyttämään histogrammin.
+Histogrammin esitetään ikkunan keskellä. Määrittele luokka nimeltä Histogrammi joka
+perii luokan Pane. Luokalla on kenttä lukumaarat joka on 29 elementin taulukko.
+lukumaarat[0] sisältää A-kirjaimien lukumäärän, lukumaarat[1] B-kirjainten
+lukumäärän ja niin edelleen. Luokka sisältää myös setterin uusien lukumäärien
+asettamiselle ja uusien lukumäärien mukaisen histogrammin esittämiselle.
