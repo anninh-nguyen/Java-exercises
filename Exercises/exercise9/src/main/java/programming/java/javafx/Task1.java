@@ -7,7 +7,9 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 
 import javafx.application.Application;
+import javafx.geometry.HPos;
 import javafx.geometry.Insets;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.Slider;
@@ -17,6 +19,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.Scene;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class Task1 extends Application {
@@ -48,15 +51,17 @@ public class Task1 extends Application {
         root.getChildren().add(histogramBox);
 
         buildOptionsBox();
-        buildOriginalTextBox();
+        buildContentGrid();
 
-        Scene scene = new Scene(root, 720 , 500);
+        Scene scene = new Scene(root, 720 , 600);
         stage.setScene(scene);
         stage.setTitle("Text to Histogram");
         stage.show();
     }
 
     private void buildLabelDictionary () {
+        labelDictionary.clear();
+
         // Read and count individual characters from the document
         for (char c : textContent.toCharArray()) {
             if (!Character.isWhitespace(c) && !Character.isDigit(c) && Character.isLetter(c)) {
@@ -82,7 +87,6 @@ public class Task1 extends Application {
         }
     }
 
-    @SuppressWarnings("unchecked")
     private void buildOptionsBox() {
         GridPane optionsBox = new GridPane(20, 5);
 
@@ -163,16 +167,51 @@ public class Task1 extends Application {
         optionsBox.add(barWidthSlider, 2, 1);
     }
 
-    private void buildOriginalTextBox() {
+    private void buildContentGrid() {
         /// Original text content
-        Label originalTextLabel = new Label("Orignal file's content:");
-        root.getChildren().add(originalTextLabel);
+        GridPane contentGrid = new GridPane();
+        contentGrid.setPrefWidth(700);
 
+        Label originalTextLabel = new Label("File's content: ");
+        contentGrid.add(originalTextLabel, 0, 0);
         TextArea originalContent = new TextArea(textContent);
+
+        Label fileNameLabel = new Label("text.txt");
+        contentGrid.add(fileNameLabel, 1, 0);
+        contentGrid.setHalignment(fileNameLabel, HPos.LEFT);
+
+        Button selectFileButton = new Button("Select .txt File");
+        selectFileButton.setOnAction(e -> {
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("Text Files", "*.txt"));
+            File selectedFile = fileChooser.showOpenDialog(null);
+            if (selectedFile != null) {
+                fileNameLabel.setText(selectedFile.getName());
+
+                textContent = "";
+                try (Scanner scanner = new Scanner(selectedFile)) {
+                    while (scanner.hasNextLine()) {
+                        textContent += scanner.nextLine();
+                    }
+                    originalContent.setText(textContent);
+                } catch (Exception ex) {
+                    ex.printStackTrace();
+                }
+                buildLabelDictionary();
+                sortDictionary(true, true);
+                histogram.buildHistogram(labelDictionary);
+            }
+        });
+        contentGrid.add(selectFileButton, 2, 0);
+        contentGrid.setHalignment(selectFileButton, HPos.RIGHT);
+
         originalContent.setMaxWidth(700);
-        originalContent.setMaxHeight(380);
+        originalContent.setMaxHeight(480);
         originalContent.setWrapText(true);
-        root.getChildren().add(originalContent);
+        contentGrid.add(originalContent, 0, 1);
+        GridPane.setColumnSpan(originalContent, 3);
+
+        root.getChildren().add(contentGrid);
     }
 
     public static void main(String[] args) {
