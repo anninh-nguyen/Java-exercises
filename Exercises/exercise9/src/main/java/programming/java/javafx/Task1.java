@@ -64,7 +64,7 @@ public class Task1 extends Application {
 
         // Read and count individual characters from the document
         for (char c : textContent.toCharArray()) {
-            if (!Character.isWhitespace(c) && !Character.isDigit(c) && Character.isLetter(c)) {
+            if (Character.isLetter(c)) {
                 if (labelDictionary.stream().noneMatch(entry -> entry.getKey().equals(String.valueOf(c).toUpperCase()))) {
                     labelDictionary.add(new AbstractMap.SimpleEntry<>(String.valueOf(c).toUpperCase(), 1));
                 } else {
@@ -170,7 +170,6 @@ public class Task1 extends Application {
     private void buildContentGrid() {
         /// Original text content
         GridPane contentGrid = new GridPane();
-        contentGrid.setPrefWidth(700);
 
         Label originalTextLabel = new Label("File's content: ");
         contentGrid.add(originalTextLabel, 0, 0);
@@ -205,10 +204,11 @@ public class Task1 extends Application {
         contentGrid.add(selectFileButton, 2, 0);
         contentGrid.setHalignment(selectFileButton, HPos.RIGHT);
 
-        originalContent.setMaxWidth(700);
-        originalContent.setMaxHeight(480);
+        originalContent.setMinWidth(680);
+        originalContent.setMinHeight(100);
         originalContent.setWrapText(true);
         contentGrid.add(originalContent, 0, 1);
+        contentGrid.setHalignment(originalContent, HPos.RIGHT);
         GridPane.setColumnSpan(originalContent, 3);
 
         root.getChildren().add(contentGrid);
