@@ -179,6 +179,9 @@ public class Task1 extends Application {
         contentGrid.add(fileNameLabel, 1, 0);
         contentGrid.setHalignment(fileNameLabel, HPos.LEFT);
 
+        originalContent.setEditable(false);
+        contentGrid.add(originalContent, 0, 1);
+
         Button selectFileButton = new Button("Select .txt File");
         selectFileButton.setOnAction(e -> {
             FileChooser fileChooser = new FileChooser();
@@ -207,7 +210,6 @@ public class Task1 extends Application {
         originalContent.setMinWidth(680);
         originalContent.setMinHeight(100);
         originalContent.setWrapText(true);
-        contentGrid.add(originalContent, 0, 1);
         contentGrid.setHalignment(originalContent, HPos.RIGHT);
         GridPane.setColumnSpan(originalContent, 3);
 
